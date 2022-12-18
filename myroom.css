@@ -27,30 +27,30 @@ body {
   color: lightblue;
   text-decoration: none;
 }
-#profiletext {
-  float: left;
-  width: 50%;
-	margin-top: 20%;
-}
 
-#profileimage {
-  float: left;
-  width: 40%;
-	text-align: center;
-	padding-left: 5%;
-  padding-right: 4%;
-  padding-bottom: 1%;
-}
-
-#profileimage img{
+#profileborder img{
 	width: 100%;
+}
+
+#header {
+	display: flex;
+	justify-content: center;
+}
+
+#smol {
+	width: 5%;
+}
+
+#big {
+	width: 60%;
+	height: fit-content;
 }
 
 @media (orientation: landscape) {
 	.border {
 		background-color:black;
-		border: 5px solid blue;
-		float: left;
+		border: 5px solid blue;display: inline-block;
+		vertical-align: top;
 	  max-width: 40%;
 		margin: 1%;
 		margin-top: 2%;
