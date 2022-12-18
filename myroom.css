@@ -1,0 +1,82 @@
+@font-face {
+		font-family: clarissans;
+		src:url(Images/clarissans.ttf);
+}
+
+body {
+ background-image: url("Images/sky.png");
+ background-repeat: repeat;
+ color: white;
+ margin: 0;
+ cursor: url('Images/cur116.cur'), pointer;
+   font-family: clarissans;
+   color: white;
+   text-decoration: none;
+}
+
+.border {
+		text-align: center;
+}
+.border p{
+  margin: 5%;
+  font-size: 125%;
+}
+
+.border a {
+  font-family: clarissans;
+  color: lightblue;
+  text-decoration: none;
+}
+#profiletext {
+  float: left;
+  width: 50%;
+	margin-top: 20%;
+}
+
+#profileimage {
+  float: left;
+  width: 40%;
+	text-align: center;
+	padding-left: 5%;
+  padding-right: 4%;
+  padding-bottom: 1%;
+}
+
+#profileimage img{
+	width: 100%;
+}
+
+@media (orientation: landscape) {
+	.border {
+		background-color:black;
+		border: 5px solid blue;
+		float: left;
+	  max-width: 40%;
+		margin: 1%;
+		margin-top: 2%;
+		min-width: 15%;
+	}
+	#profileborder {
+		max-width: 30%;
+	}
+}
+
+@media (orientation: portrait) {
+	.border {
+		background-color:black;
+		border: 5px solid blue;
+		float: left;
+	  max-width: 92%;
+	  margin-left: 3%;
+	  margin-right: 3%;
+	  margin-top: 3%
+	}
+	#contact, #tableofcontents{
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	#mastodonfeed {
+		margin-left: 6%;
+	}
+}
