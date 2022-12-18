@@ -29,7 +29,9 @@ body {
 }
 
 #profileborder img{
-	width: 100%;
+	width: 80%;
+	margin-left: 5%;
+	margin-bottom: 5%;
 }
 
 #header {
@@ -49,7 +51,8 @@ body {
 @media (orientation: landscape) {
 	.border {
 		background-color:black;
-		border: 5px solid blue;display: inline-block;
+		border: 5px solid blue;
+		display: inline-block;
 		vertical-align: top;
 	  max-width: 40%;
 		margin: 1%;
